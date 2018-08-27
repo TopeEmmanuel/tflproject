@@ -5,7 +5,7 @@ const client = {   
     let roadid=this.roadid
     function getPath(input)
     {
-      var jsonSource = require('./tfljson')
+      var jsonSource = require('./config')
       var https = require('https'); 
       let json = jsonSource.jsonString
       let parsedjson = JSON.parse(json)
