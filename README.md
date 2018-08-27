@@ -29,3 +29,11 @@ https://github.com/TopeEmmanuel/tflproject
 #Git Clone
 
 https://github.com/TopeEmmanuel/tflproject.git
+
+#Test coverage
+test cverage is only about 50%. This should be improved on in production environment
+
+#assumptions
+that the npm running is latest
+that at least es6 is running
+that javascript client will be able to run await async
