@@ -51,12 +51,7 @@ const client = {   
         reqGet.end();
        
                 
-   }).catch(
-       
-{
-
-   }
-   )  
+   }).catch( {  }  )  
   }
 }
 module.exports = {

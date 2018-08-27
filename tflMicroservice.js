@@ -2,7 +2,6 @@ const client = require('./tflclient').client
 
 
 function gettfldata(roadid) {
-
   let clients = {}
   let params = {}
   let exitcode=0
@@ -71,4 +70,5 @@ function gettfldata(roadid) {
 module.exports = {
   gettfldata: gettfldata
 }
+// entry point
 gettfldata()
